@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.box>p{
+    color:rgb(233, 228, 228)
+}
+
+#center{
+    width: 500px;
+    height: 800px;
+}
+
+#top-div{
+    height: 60%;
+    width: 100%;
+    background-color: #f45464;
+    border-bottom-left-radius: 6rem;
+}
+
+#icon-row{
+    height: 10%;
+    padding-top: 4rem;
+    padding-left: 2em;
+}
+
+#content-row{
+    height: 70%;
+    display: flex;
+}
+
+#left,#right{
+    width: 50%;
+}
+
+#left{
+    border-bottom-left-radius: 6rem;
+    color: white;   
+    padding-left: 3em;
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 92%;
+}
+
+
+#back-icon{
+    width: 2em;
+    height: 2em;
+}
+
+#right{
+    height: 110%;
+    background-image: url(./wraith.png);
+    background-size: 95%;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+#wraith-img{
+    width: 100%;
+    height: 100%;
+}
+
+
+#low-div{
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    align-items: center;
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+#row1,#row2{
+    width: 70%;
+    height: 40%;
+    margin-top: 1em;
+    display: flex;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.row-left{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-right{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1em;
+    color: #f45464;
+}
+
+.circle{
+    height: 80%;
+    width: 55%;
+    border-radius: 80%;
+    border: 2px solid #f45464;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons{
+    width: 40%;
+    height: 40%;
+}
