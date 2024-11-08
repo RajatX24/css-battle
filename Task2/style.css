@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+input{
+    border-radius: 10px;
+    font-size: large    ;
+}
+
+#head1{
+    display: flex;
+}
+
+#marvel{
+    color:red;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    text-decoration: none;
+    margin:15px
+}
+
+section{
+    height: 67vh;
+    width: 100vw;
+}
+
+#f2{
+    display: flex;
+    justify-content: space-between;
+}
+
+#f2>p{
+    margin-left: 10px;
+}
+
+footer{
+    color:slategrey;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
